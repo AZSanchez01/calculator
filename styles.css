@@ -1,0 +1,12 @@
+body,
+.calc-container,
+.calc-body {
+    display: flex;
+    justify-content: center;
+}
+
+.calc-body {
+    background: darkslategray;
+    width: 500px;
+    height: 600px;
+}
