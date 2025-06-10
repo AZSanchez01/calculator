@@ -29,3 +29,10 @@ function operate (a, b, operator) {
     }
 }
 
+//Event to display numbers on click
+let screen = document.querySelector(".screen");
+let buttons = document.querySelector(".buttons");
+buttons.addEventListener("click", (e) => {
+    let button = e.target;
+    if (button.classList.contains("num")) (button.id == "dec")? screen.textContent += "." : screen.textContent += button.id;
+});
