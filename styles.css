@@ -20,8 +20,29 @@ body,
 }
 .calc-body {
     align-self: center;
-    background: darkslategray;
-    width: 400px;
+    background: black;
+    width: 320px;
     height: 600px;
+    border-radius: 8px;
+    justify-content: space-evenly;
+}
+.screen {
+    background: green;
+    height: 60px;
+    margin: 20px;
     border-radius: 12px;
+}
+.buttons {
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    color: white;
 }
