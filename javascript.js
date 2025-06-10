@@ -11,6 +11,9 @@ function multiply (a, b) {
 function divide (a, b) {
     return a / b;
 }
+function mod (a, b) {
+    return a % b;
+}
 function operate (a, b, operator) {
     switch(operator) {
         case '+':
@@ -21,6 +24,8 @@ function operate (a, b, operator) {
             return multiply(a, b);
         case '/':
             return divide(a, b);
+        case '%':
+            return mod(a, b);
     }
 }
 
