@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 body,
 .calc-container,
 .calc-body {
@@ -6,6 +7,7 @@ body,
     justify-content: center;
     padding: 0;
     margin: 0;
+    font-family: Roboto, sans-serif;
 }
 .header {
     height: 70px;
@@ -28,21 +30,31 @@ body,
 }
 .screen {
     background: green;
-    height: 60px;
     margin: 20px;
     border-radius: 12px;
 }
 .buttons {
     display: flex;
     flex-flow: row wrap;
-
+    justify-content: center;
+    align-items: flex-end;
+    gap: 1px;
 }
 
 .button {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80px;
-    height: 80px;
+    width: 76px;
+    height: 76px;
     color: white;
+    background: rgb(23, 23, 23);
+    font-
+}
+.operator {
+    background: darkslategray;
+}
+#equals {
+    background: teal;
+    width: 153px;
 }
