@@ -26,7 +26,7 @@ body,
     width: 320px;
     height: 600px;
     border-radius: 8px;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .screen {
     background: green;
@@ -39,6 +39,7 @@ body,
     justify-content: center;
     align-items: flex-end;
     gap: 1px;
+    padding: 5px;
 }
 
 .button {
