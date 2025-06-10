@@ -23,8 +23,10 @@ function operate (a, b, operator) {
         case '*':
             return multiply(a, b);
         case '/':
+            if (b === 0) return "bawal sa kaniya!";
             return divide(a, b);
         case '%':
+            if (b === 0) return "bawal sa kaniya!";
             return mod(a, b);
     }
 }
