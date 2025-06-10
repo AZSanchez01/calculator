@@ -34,5 +34,9 @@ let screen = document.querySelector(".screen");
 let buttons = document.querySelector(".buttons");
 buttons.addEventListener("click", (e) => {
     let button = e.target;
-    if (button.classList.contains("num")) (button.id == "dec")? screen.textContent += "." : screen.textContent += button.id;
+    if (Number.isInteger(+button.id)) screen.textContent += button.id;
 });
+
+let num1;
+let num2;
+let result;
