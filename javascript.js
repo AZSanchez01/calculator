@@ -75,7 +75,9 @@ buttons.addEventListener("click", (e) => {
             result = operate(num1, num2, operator);
             screen.textContent = result;
             isResultDisplayed = true;
-            num1 = result;
+            
+            if (!isNaN(Number(screen.textContent))) num1 = result;
+            else num1 = '';
             num2 = '';
             operator = '';
         }
