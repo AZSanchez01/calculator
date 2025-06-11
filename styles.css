@@ -10,6 +10,12 @@ body,
     font-family: Roboto, sans-serif;
 }
 .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(221, 221, 221);
     height: 70px;
     width: auto;
     background: darkred;
@@ -58,9 +64,11 @@ button {
     background: rgb(23, 23, 23);
     font-
 }
+
 .operator {
     background: darkslategray;
 }
+
 #equals {
     background: teal;
     width: 153px;
